@@ -1,7 +1,7 @@
 angular
-    .module("eCommerce",[])
+    .module("eCommerce",[ngMaterial])
 
-    .directive(helloWorld,function () {
+    .directive('helloWorld',function () {
 
         return{
             template:"i am a directive"
