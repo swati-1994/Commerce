@@ -3,6 +3,8 @@
 <head>
     <script src="node_modules/angular/angular.js"></script>
     <script src="scripts/app.js"></script>
+<link rel="stylesheet" href="node_modules/angular-material/angular-material.css">
+    <link href="node_modules/mdi/css/materialdesignicons.css" media="all" rel="stylesheet" type="text/css">
 
     <title>eCommerce</title>
 </head>
@@ -10,13 +12,25 @@
 
 <input type="text" placeholder="name" ng-model="name" />
 
+<md-toolbar>
+    <div class="md-toolbar-tools">
+
+    <p><strong>ngClassifieds</strong></p>
+
+    <md-button>
+        <md-icon class="mdi mdi-plus-circle"></md-icon>
+New Classified
+    </md-button>
+    </div>
+</md-toolbar>
+
 <h1>{{name}}</h1>
 <hello-world></hello-world>
-
-<script src="./components/classifieds.ctr.js"></script>
-<script src="node_modules/angular-aria/angular-aria.js"></script>
 <script src="node_modules/angular-material/angular-material.js"></script>
 <script src="node_modules/angular-animate/angular-animate.js"></script>
+<script src="./components/classifieds.ctr.js"></script>
+<script src="node_modules/angular-aria/angular-aria.js"></script>
+
 
 </body>
 </html>

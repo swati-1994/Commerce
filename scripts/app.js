@@ -9,7 +9,7 @@ angular
     .directive(helloWorld,function () {
 
         return{
-            tepmplate:"i am a directive"
+            template:"i am a directive"
         }
         
     });
